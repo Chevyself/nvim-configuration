@@ -31,7 +31,10 @@ Plug 'scrooloose/nerdtree'
 
 call plug#end()
 
+" Apply theme
 colorscheme iceberg
+
+" Macro
 let mapleader = " "
 
 " Disables arrow keys
