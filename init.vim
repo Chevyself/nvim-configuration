@@ -23,6 +23,11 @@ highlight ColoColumn ctermbg=0 guibg=lightgrey
 " Plugins
 call plug#begin('C:\Users\Chevy\AppData\Local\nvim\plugged')
 
+" coc
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" Java
+Plug 'nvim-treesitter/nvim-treesitter'
 " Theme
 Plug 'cocopon/iceberg.vim'
 
